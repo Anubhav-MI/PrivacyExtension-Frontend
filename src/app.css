@@ -2,13 +2,49 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  position: relative;
+  border: 1px solid rgb(0, 0, 0);
   background-color: #f0f0f0;
   font-weight: 200;
-  text-align: center;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0);
+  /* border-radius: 32px; */
+  background-color: #6880ff;
+  width: 600px;
+  height: 400px;
 }
 .text-area {
+  position: absolute;
+  bottom: 0;
+  width: 600px;
+  height: 300px;
+  font-family: "noto sans";
+  font-weight: 400;
+  font-size: 26px;
   font-size: small;
   text-align: left;
   color: chocolate;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  /* border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px; */
+  overflow-y: auto;
+}
+.head {
+  font-family: "open sans";
+  /* border-top-left-radius: 32px;
+  border-top-right-radius: 32px; */
+  height: 100px;
+  color: white;
+  font-weight: 400;
+  font-size: 32px;
+  padding-left: 20px;
+}
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: black;
 }
