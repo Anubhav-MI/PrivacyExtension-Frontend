@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Terms and Conditions Extension",
+  "version": "1.0",
+  "description": "A Chrome extension to display terms and conditions",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo192.png"
+  },
+  "icons": {
+    "16": "logo192.png"
+  },
+  "permissions": ["activeTab"]
+}
